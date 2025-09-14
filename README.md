@@ -1,6 +1,10 @@
 # A bias-free deep learning approach for automated sunspot segmentation
 
 
+A Bias-free Deep Learning Approach for Automated Sunspot Segmentation
+Jing Chen, Norbert G. Gyenge, Ye Jiang, Robertus Erdélyi, Jiajia Liu, and Yimin Wang*
+In ApJ 2025.
+
 This project explores deep learning methods to automate sunspot identification in solar satellite images, keeping personal bias to the minimum.       Utilizing observations of the Solar Dynamics Observatory (SDO), we leverage active region data from the HMI Active Region Patches (HARP) to locate sunspot groups detected.       The Morphological Active Contour Without Edges (MorphACWE) technique is applied to produce pseudo-labels, which is utilized to train the U-Net deep learning architecture, combining their strengths for robust segmentation.
 
 The pseudo-labels generation part of this project is adapted from [SheffieldSolarCatalog](https://github.com/gyengen/SheffieldSolarCatalog)
